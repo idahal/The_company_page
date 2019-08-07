@@ -5,28 +5,29 @@ const StyledFooter = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: black;
+  background-color: #e68a00;
   width: 100%;
-  color: white;
+  color: #000000;
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
-  height: 100px;
   p {
     font-size: 14px;
     align-self: flex-end;
   }
 @media screen and (max-width: 800px) {
-  }
+    flex-direction: column;
+    p {
+        align-self: center;
+    }
+
+}
 `;
 
-const Footer = () => (
-  <StyledFooter>
-      <p>Adress:</p>
-      <p>Telefon:</p>
-      <p>Följ oss på</p>
-      <p>Copyright Ida Hallner {(new Date().getFullYear())}</p>
+const Footer = props => (
+<StyledFooter>
+    {props.children}
   </StyledFooter>
 )
 
