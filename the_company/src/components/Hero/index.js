@@ -14,6 +14,9 @@ text-align: center;
         left: 16px;
         color: #ffffff;
         font-weight: lighter;
+        width: 60%;
+        text-align: left;
+        margin-left: 5%;
     }
 
 @media screen and (max-width: 800px) {
@@ -22,10 +25,7 @@ text-align: center;
         bottom: 1px;
         left: 1px;
         font-size: 0.8rem;
-        width: 60%;
-
     }
-
  }
 `;
 
@@ -35,7 +35,7 @@ const Hero = () => {
         <hero>
           <img src={hero_image} className="heroImage" alt="hero_image" />
         </hero>
-        <h1>- ByggVolt, hög teknisk kompetens och mångårig erfarenhet.</h1>
+        <h1>-ByggVolt, vi har hög teknisk kompetens och mångårig erfarenhet.</h1>
       </StyledHero>
     )
   }
