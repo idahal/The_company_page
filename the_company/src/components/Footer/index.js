@@ -7,7 +7,7 @@ const StyledFooter = styled.div`
   justify-content: space-around;
   background-color: #e68a00;
   width: 100%;
-  color: #000000;
+  color: #ffffff;
   position: absolute;
   bottom: 0;
   left: 0;
