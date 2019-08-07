@@ -4,7 +4,7 @@ import styled from "styled-components";
 const StyledFooter = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: #e68a00;
   width: 100%;
   color: #000000;
@@ -14,21 +14,24 @@ const StyledFooter = styled.div`
   right: 0;
   p {
     font-size: 14px;
-    align-self: flex-end;
+    align-self: center;
   }
+  img {
+    padding-top: 2%;
+    }
 @media screen and (max-width: 800px) {
     flex-direction: column;
+    align-items: center;
     p {
         align-self: center;
     }
-
-}
+ }
 `;
 
 const Footer = props => (
 <StyledFooter>
     {props.children}
-  </StyledFooter>
+</StyledFooter>
 )
 
 
