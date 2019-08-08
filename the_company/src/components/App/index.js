@@ -2,12 +2,15 @@ import React from 'react';
 import './App.css';
 import Footer from '../Footer';
 import Hero from '../Hero';
+import About from '../About';
+
 import instagram from './instagram-brands.svg';
 
 function App() {
   return (
     <div className="App">
         <Hero />
+        <About />
         <Footer> 
           <p>Adress: Karis Lycka 6 433 51 Öjersjö</p>
           <p>Telefon: 031-7619101</p>
