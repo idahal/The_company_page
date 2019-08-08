@@ -8,16 +8,12 @@ const StyledFooter = styled.div`
   background-color: #e68a00;
   width: 100%;
   color: #ffffff;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  p {
-    font-size: 14px;
-    align-self: center;
-  }
-  img {
-    padding-top: 2%;
+    p {
+        font-size: 14px;
+        align-self: center;
+    }
+    img {
+        padding-top: 2%;
     }
 @media screen and (max-width: 800px) {
     flex-direction: column;
