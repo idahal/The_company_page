@@ -10,6 +10,8 @@ html {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Noto Sans', Arial, sans-serif;
   min-height: 100%;
+  font-weight: lighter;
+
 }
