@@ -12,11 +12,13 @@ text-align: center;
         position: absolute;
         bottom: 8px;
         left: 16px;
-        color: #ffffff;
+        color: rgb(255, 255, 255);
         font-weight: lighter;
         width: 60%;
         text-align: left;
         margin-left: 5%;
+        padding: 1%;
+        background-color: rgb(255, 194, 102, 0.8);
     }
 
 @media screen and (max-width: 800px) {
