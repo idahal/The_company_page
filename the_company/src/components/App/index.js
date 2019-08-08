@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import Footer from '../Footer';
 import Hero from '../Hero';
-import About from '../About';
 import Box from '../Box';
 
 
@@ -12,7 +11,15 @@ function App() {
   return (
     <div className="App">
         <Hero />
-        <About />
+        <Box>
+        <p>Bygg eller el, vi kan båda.</p>
+          <h1>Om oss</h1>
+          <h3> 
+            Vi är ett El/Byggtekniskt företag med medarbetare som har hög teknisk kompetens och mångårig erfarenhet.
+            Vårt personliga engagemang samt närheten till kunden är vår styrka och är en av de grundpelarna som vårt företag bygger på.
+          </h3>
+        </Box>
+ 
         <Box>
         <p>Trygghet är viktigt.</p>
         <h1>Anlita oss</h1>
