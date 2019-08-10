@@ -26,6 +26,7 @@ text-align: center;
         position: absolute;
         bottom: 1px;
         left: 1px;
+        width: 70%;
         font-size: 0.8rem;
     }
  }
@@ -34,10 +35,8 @@ text-align: center;
 const Hero = () => {
     return (
       <StyledHero>
-        <hero>
           <img src={hero_image} className="heroImage" alt="hero_image" />
-        </hero>
-        <h1>-ByggVolt, vi har hög teknisk kompetens och mångårig erfarenhet.</h1>
+          <h1>-ByggVolt, vi har hög teknisk kompetens och mångårig erfarenhet.</h1>
       </StyledHero>
     )
   }
