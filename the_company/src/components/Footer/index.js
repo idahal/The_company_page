@@ -5,7 +5,7 @@ const StyledFooter = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background-color: rgb(230, 138, 0);
+  background-color: rgb(0, 0, 0);
   width: 100%;
   color: rgb(255, 255, 255);
     p {
