@@ -1,6 +1,18 @@
 import React from 'react';
+import styled from "styled-components";
 import Hero from '../Hero';
 import Box from '../Box';
+import close_image from '../../../src/images/close_image.PNG';
+
+const StyledHome = styled.div`
+    .closeImage {
+        width: 100%;
+    }
+    
+@media screen and (max-width: 800px) {
+
+ }
+`;
 
 function Home() {
   return (
@@ -14,7 +26,9 @@ function Home() {
             Vårt personliga engagemang samt närheten till kunden är vår styrka och är en av de grundpelarna som vårt företag bygger på.
           </h3>
         </Box>
- 
+        <StyledHome>
+            <img src={close_image} className="closeImage" alt="close_image" />
+        </StyledHome>
         <Box>
           <p>Trygghet är viktigt.</p>
           <h1>Anlita oss</h1>
