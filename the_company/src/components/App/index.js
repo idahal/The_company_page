@@ -1,9 +1,10 @@
 import React from 'react';
-import './App.css';
 import { Router } from "@reach/router";
+import './App.css';
 import Footer from '../Footer';
-import Home from '../Home';
 import Navbar from '../Navbar';
+import Home from '../Home';
+import Services from '../Services';
 import instagram from './instagram-brands.svg';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <Router>
         <Home path="/" />
+        <Services path="/services" />
       </Router> 
       <Footer> 
         <p>Adress: Karis Lycka 6 433 51 Öjersjö</p>
