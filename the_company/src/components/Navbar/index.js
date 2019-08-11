@@ -12,7 +12,7 @@ const StyledNavbar = styled.div`
     align-items: center;
     background-color: rgb(0, 0, 0);
     font-size: 1.3rem;
-    ul {
+    nav {
         display: flex;
     }
     a {
@@ -40,11 +40,11 @@ const Navbar = () => {
   return (
     <StyledNavbar>
       <img src={logo} className="companyLogo" alt="logo" />
-      <ul> 
+      <nav> 
       <Link to="/">Hem</Link>
       <Link to="/services">Tjänster</Link>
       <Link to="/contact">Kontakt</Link>
-      </ul>
+      </nav>
     </StyledNavbar>
   )
 }
