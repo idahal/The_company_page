@@ -8,15 +8,45 @@ import car from '../../../src/images/car.PNG';
 
 
 const StyledServices = styled.div`
-    height: 300px;
-    background-color: black;
+    width: 100%;
     margin-bottom: 1%;
+    background-color: rgb(255, 255, 255);
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+    
     .workerImage, .carImage {
+        width: 25%;
         height: 300px;
     }
 
     
 @media screen and (max-width: 800px) {
+    .workerImage, .carImage {
+        width: 100%;        
+    }
+
+    .workerImage {
+        margin-bottom: 1%;
+    }
+ }
+`;
+
+const StyledSvg = styled.div`
+    width: 25%;
+    height: 300px;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+    
+@media screen and (max-width: 800px) {
+    width: 100%;
  }
 `;
 
@@ -32,10 +62,14 @@ function Services() {
           </h3>
         </Box>
         <StyledServices>
-            <img src={bolt} alt="bolt" />
-            <img src={worker} className="workerImage" alt="image on a worker" />
-            <img src={tools} alt="tools" />
-            <img src={car} className="carImage" alt="image on a Byggvolr car" />
+            <StyledSvg>
+                <img src={bolt} alt="bolt" />                
+            </StyledSvg>
+            <img src={worker} className="workerImage" alt="a worker" />
+            <StyledSvg>
+                <img src={tools} alt="tools" />
+            </StyledSvg>
+            <img src={car} className="carImage" alt="a Byggvolt car" />
         </StyledServices>
 
      </div>
