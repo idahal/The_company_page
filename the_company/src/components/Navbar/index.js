@@ -33,6 +33,7 @@ const StyledNavbar = styled.div`
 
     .active {
         color: rgb(230, 138, 0);
+        font-weight: bold;
     }
 
     @media screen and (max-width: 800px) {
@@ -57,8 +58,8 @@ const Navbar = () => {
       <img src={logo} className="companyLogo" alt="logo" />
       <nav> 
       <NavLink to="/">Hem</NavLink>
-      <NavLink to="/services">Tjänster</NavLink>
-      <NavLink to="/contact">Kontakt</NavLink>
+      <NavLink to="/service">Tjänster</NavLink>
+      <NavLink to="/kontakt">Kontakt</NavLink>
       </nav>
     </StyledNavbar>
   )
