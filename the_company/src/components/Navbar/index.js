@@ -31,19 +31,34 @@ const StyledNavbar = styled.div`
       margin: 0 0 0 2%;
     }
 
-  @media screen and (max-width: 800px) {
+    .active {
+        color: rgb(230, 138, 0);
+    }
+
+    @media screen and (max-width: 800px) {
     display: none;
   }
 `;
+
+const NavLink = props => (
+    <Link
+      {...props}
+      getProps={({ isCurrent }) => {
+        return {
+            className: isCurrent ? "active" : "notactive"
+        };
+      }}
+    />
+  );
 
 const Navbar = () => {
   return (
     <StyledNavbar>
       <img src={logo} className="companyLogo" alt="logo" />
       <nav> 
-      <Link to="/">Hem</Link>
-      <Link to="/services">Tjänster</Link>
-      <Link to="/contact">Kontakt</Link>
+      <NavLink to="/">Hem</NavLink>
+      <NavLink to="/services">Tjänster</NavLink>
+      <NavLink to="/contact">Kontakt</NavLink>
       </nav>
     </StyledNavbar>
   )
