@@ -22,6 +22,11 @@ const StyledBox = styled.div`
         text-transform: uppercase;
     }
 
+    .center {
+        text-align: center;
+        width: 100%;
+    }
+
 @media screen and (max-width: 800px) {
     height: 270px;
     padding: 1% 5% 1% 5%;
