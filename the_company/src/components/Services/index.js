@@ -9,7 +9,7 @@ import car from '../../../src/images/car.PNG';
 
 const StyledServices = styled.div`
     width: 100%;
-    margin-bottom: 1%;
+    margin-bottom: 1em;
     background-color: rgb(255, 255, 255);
     display:flex;
     flex-direction: row;
@@ -27,10 +27,7 @@ const StyledServices = styled.div`
 @media screen and (max-width: 800px) {
     .workerImage, .carImage {
         width: 100%;        
-    }
-
-    .workerImage {
-        margin-bottom: 1%;
+        margin-bottom: 1em;
     }
  }
 `;
@@ -38,7 +35,7 @@ const StyledServices = styled.div`
 const StyledSvg = styled.div`
     width: 25%;
     height: 300px;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-content: center;
     align-items: center;
@@ -71,7 +68,6 @@ function Services() {
             </StyledSvg>
             <img src={car} className="carImage" alt="a Byggvolt car" />
         </StyledServices>
-
      </div>
   );
 }
