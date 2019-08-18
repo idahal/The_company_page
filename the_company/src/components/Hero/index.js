@@ -3,11 +3,12 @@ import styled from "styled-components";
 import hero_image from '../../../src/images/hero_image.PNG';
 
 const StyledHero = styled.div`
-position: relative;
-text-align: center;
+    position: relative;
+    text-align: center;
     .heroImage {
         width: 100%;
     }
+    
     h1 {
         position: absolute;
         bottom: 8px;
@@ -22,6 +23,10 @@ text-align: center;
     }
 
 @media screen and (max-width: 800px) {
+    .heroImage {
+        height: 140px;
+    }
+
     h1 {
         position: absolute;
         bottom: 1px;
