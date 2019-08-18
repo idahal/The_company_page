@@ -1,8 +1,5 @@
-# The_company_page
-
-Ongoing work... :)
-
 # The company page
+Ongoing work... :)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) This is a company page for the comapny ByggVolt.
 
 ## Lincense
