@@ -6,8 +6,9 @@ const StyledBox = styled.div`
     background-color: rgb(230, 138, 0); 
     color: rgb(255, 255, 255);
     padding: 1%;
-    margin: 1% 0 1% 0;
+    margin: 2% 0 2% 0;
     height: 300px;
+    
     h1 {
         font-size: 2rem;
         text-transform: uppercase;
@@ -18,6 +19,7 @@ const StyledBox = styled.div`
         font-size: 1.2rem;
         text-align: left;
     }
+
     p {
         text-transform: uppercase;
     }
@@ -29,15 +31,12 @@ const StyledBox = styled.div`
 
 @media screen and (max-width: 800px) {
     height: 270px;
+    margin: 2% 0 3% 0;
     padding: 1% 5% 1% 5%;
 
-    h1 {
-
-    }
     h3 {
         width: 100%;
         font-size: 0.9rem;
-
     }
  `;
 
