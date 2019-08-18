@@ -27,44 +27,41 @@ const StyledNavbar = styled.div`
         color: rgb(255, 255, 255);
         text-decoration: none;
         display: block;
-        padding: 1em;
+        padding: 1em 1em 0.1em 1em;
+        margin-right: 1em;
     }
 
     a:hover {
-        color: rgb(230, 138, 0);
-    }
-    
+        font-weight: bold;
+    }    
     
     .companyLogo {
-        height: 70%;
-        margin: 0 0 0 2%;
+        height: 80%;
+        margin: 0 0 0 1em;
     }
     
     .active {
-        color: rgb(230, 138, 0);
         font-weight: bold;
+        border-bottom: 2px solid;
     }
 }
-
     
     @media screen and (max-width: 800px) {
         height: 10vh;
         background: rgb(0, 0, 0);
 
         .active {            
-            font-weight: bold;
-            text-decoration: underline;
+            font-weight: bold;            
         }
 
         button {
             background: none;
             border: none;
             position: absolute;
-            top: 10px;
-            right: 10px;
+            top: 1em;
+            right: 1em;
             z-index: 2;
         }
-
         
         .menu {
             width: 100vw;
@@ -88,7 +85,7 @@ const StyledNavbar = styled.div`
 
         .companyLogo {
             height: 70%;
-            margin: 2% 0 0 0;
+            margin: 0.5em 0 0 0.5em;
         }
 
         nav {
