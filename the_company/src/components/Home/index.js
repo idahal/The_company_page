@@ -5,13 +5,13 @@ import Box from '../Box';
 import close_image from '../../../src/images/close_image.PNG';
 
 const StyledHome = styled.div`
-    .closeImage {
-        width: 100%;
+  .closeImage {
+      width: 100%;
     }
     
-@media screen and (max-width: 800px) {
+    @media screen and (max-width: 800px) {
 
- }
+    }
 `;
 
 function Home() {

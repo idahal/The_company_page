@@ -27,7 +27,10 @@ const StyledServices = styled.div`
 @media screen and (max-width: 800px) {
     .workerImage, .carImage {
         width: 100%;        
-        margin-bottom: 1em;
+    }
+    
+    .workerImage {
+        margin-bottom: 1em;        
     }
  }
 `;
