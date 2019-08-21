@@ -10,7 +10,7 @@ const StyledBox = styled.div`
     height: 300px;
     
     h1 {
-        font-size: 2rem;
+        font-size: 35px;
         text-transform: uppercase;
     }
 
@@ -18,10 +18,13 @@ const StyledBox = styled.div`
         width: 80%;
         font-size: 1.2rem;
         text-align: left;
+        font-size: 20px;
+        letter-spacing: 1px;
     }
 
     p {
         text-transform: uppercase;
+        font-size: 15px;
     }
 
     .center {
@@ -35,7 +38,7 @@ const StyledBox = styled.div`
     
     h3 {
         width: 100%;
-        font-size: 0.9rem;
+        font-size: 0.9em;
     }
  `;
 

@@ -10,14 +10,14 @@ const StyledHero = styled.div`
     }
     
     h1 {
+        font-size: 35px;
         position: absolute;
-        bottom: 8px;
-        left: 16px;
+        bottom: 2%;
+        left: 2%;
         color: rgb(255, 255, 255);
         font-weight: lighter;
         width: 60%;
         text-align: left;
-        margin-left: 5%;
         padding: 1%;
         background-color: rgb(255, 194, 102, 0.8);
     }
@@ -29,10 +29,8 @@ const StyledHero = styled.div`
 
     h1 {
         position: absolute;
-        bottom: 1px;
-        left: 1px;
-        width: 70%;
-        font-size: 0.8rem;
+        width: 80%;
+        font-size: 1.2em;
     }
  }
 `;

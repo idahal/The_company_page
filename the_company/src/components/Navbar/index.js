@@ -27,7 +27,7 @@ const StyledNavbar = styled.div`
         color: rgb(255, 255, 255);
         text-decoration: none;
         display: block;
-        padding: 1em 1em 0.1em 1em;
+        padding: 0.1em 1em 0.1em 1em;
         margin-right: 1em;
     }
 
@@ -42,7 +42,7 @@ const StyledNavbar = styled.div`
     
     .active {
         font-weight: bold;
-        border-bottom: 2px solid;
+        border: 2px solid;
     }
 }
     
