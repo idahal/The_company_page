@@ -1,6 +1,5 @@
 # The company page
-Ongoing work... :)
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) This is a company page for the comapny ByggVolt.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) This is a company page for the company ByggVolt. 
 
 ## Lincense
 This project is licensed under the MIT License.
