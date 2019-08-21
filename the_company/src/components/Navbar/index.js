@@ -66,11 +66,10 @@ const StyledNavbar = styled.div`
         .menu {
             width: 100vw;
             height: 50vh;
-            background: rgba(230, 138, 0, 0.74);
+            background: rgba(0, 0, 0, 0.85);
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: center;
             position: relative;
             z-index: 2;
             top: 1vh;
@@ -80,7 +79,7 @@ const StyledNavbar = styled.div`
             color: rgb(255, 255, 255);
             text-decoration: none;
             font-size: 2em;
-            padding-bottom: 10px;
+            padding: 5%;
         }
 
         .companyLogo {
