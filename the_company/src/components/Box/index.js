@@ -33,7 +33,7 @@ const StyledBox = styled.div`
     }
 
 @media screen and (max-width: 800px) {
-    height: 270px;
+    height: 335px;
     margin: 1em 0 1em 0;
     
     h3 {
