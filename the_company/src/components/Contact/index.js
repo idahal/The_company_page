@@ -13,6 +13,10 @@ const StyledContact = styled.div`
     background-color: rgb(255, 255, 255);
     width: 100%;
 
+    img {
+        height: 400px;
+    }
+
 @media screen and (max-width: 800px) {
     flex-direction: column;
     align-items: center;
